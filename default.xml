@@ -1,8 +1,7 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Remote definition -->
-  <remote name="github" fetch="https://github.com/NotPrime-Developer/" />
+  <remote name="github" fetch="https://github.com/Prime-Roms/" />
 
   <!-- Default branch and sync settings -->
   <default revision="refs/heads/13.0" remote="github" sync-j="4" />
@@ -11,7 +10,8 @@
   <project name="android_build" path="build" revision="13.0" />
   <project name="android_frameworks_base" path="frameworks/base" revision="13.0" />
   <project name="android_system_core" path="system/core" revision="13.0" />
-  <project name="vendor" path="vendor" revision="13.0" />
+  <project name="vendor_prime" path="vendor/prime" revision="13.0" />
+  <project name="prime_tools" path="tools" revision="13.0" />
 
   <!-- Device-specific repos -->
   <project name="device_samsung_zenlte" path="device/samsung/zenlte" revision="13.0" />
