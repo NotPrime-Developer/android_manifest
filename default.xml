@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remote definition -->
+  <remote name="github" fetch="https://github.com/Prime-ROMs/" />
+
+  <!-- Default branch and sync settings -->
+  <default revision="refs/heads/13.0" remote="github" sync-j="4" />
+
+  <!-- Core repos -->
+  <project name="android_build_prime" path="build" revision="13.0" />
+  <project name="android_frameworks_prime" path="frameworks/base" revision="13.0" />
+  <project name="android_system_prime" path="system/core" revision="13.0" />
+  <project name="vendor_prime" path="vendor/prime" revision="13.0" />
+
+  <!-- Device-specific repos -->
+  <project name="device_samsung_zenlte" path="device/samsung/zenlte" revision="13.0" />
+  <project name="kernel_samsung_universal7420" path="kernel/samsung/universal7420" revision="13.0" />
+  <project name="vendor_samsung_zenlte" path="vendor/samsung/zenlte" revision="13.0" />
+</manifest>
